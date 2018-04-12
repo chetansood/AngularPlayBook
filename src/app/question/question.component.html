@@ -1,0 +1,7 @@
+<div class="panel panel-body receipe" style="max-width:500px">
+    <h4 class="panel-title bg-danger">{{question.question}}</h4>
+    <p class="panel-text" *ngIf="question.displayAnswer">{{question.answer}}</p>
+    <div class="flex-row">
+        <button type="button" class="btn btn-primary" (click)="toggle()">{{text}}</button>
+    </div>
+</div>

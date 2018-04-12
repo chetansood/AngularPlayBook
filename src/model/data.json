@@ -1,0 +1,33 @@
+[{
+        "question": "What are directives in AngularJS?",
+        "answer": "Angular has different types of directives. Custom, Structural & attribute. You should be aware of all of them."
+    },
+    {
+        "question": "What are controllers in AngularJS?",
+        "answer": "Controllers are JavaScript functions that are bound to a particular scope. They are the prime actors in AngularJS framework and carry functions to operate on data and decide which view is to be updated to show the updated model based data."
+    },
+    {
+        "question": "What are prefixes? What is $ in angularjs?",
+        "answer": "Prefixes are used in angular to reserve namespace. $ is used for public funcitons."
+    },
+    {
+        "question": "What is an Angular expression? how is it different from javascript expression?",
+        "answer": "Angular expressions are code snippets that are usually placed in binding such as {{ expression }} similar to JavaScript. Differences between Angular and javascript expressions is primarily with repect to context, forgiving, control flow statements and filters."
+    },
+    {
+        "question": "Explain templates in AngularJS",
+        "answer": "Templates are the rendered view with information from the controller and model. These can be a single file (like index.html) or multiple views in one page using partials."
+    },
+    {
+        "question": "How does data binding in AngularJS work",
+        "answer": "This is a conceptual question and you should read about how scope between model and view is maintained."
+    },
+    {
+        "question": "How is Singleton pattern used in Angular",
+        "answer": "Using Providers or Services."
+    },
+    {
+        "question": "What are filter?",
+        "answer": "filter filter is used to filter the array to a subset of it based on provided criteria."
+    }
+]
